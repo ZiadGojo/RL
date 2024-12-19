@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1734457921",
+        "python_version": "3.7.16 (default, Jan 17 2023, 16:06:28) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\Ziad\\anaconda3\\envs\\project\\Scripts\\mlagents-learn Assets\\CriminalCatcher.yaml --run-id=Run 1",
+        "mlagents_version": "0.28.0",
+        "mlagents_envs_version": "0.28.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.21.6",
+        "end_time_seconds": "1734457936"
+    },
+    "total": 14.909022099999998,
+    "count": 1,
+    "self": 0.04903050000000064,
+    "children": {
+        "run_training.setup": {
+            "total": 0.21974589999999994,
+            "count": 1,
+            "self": 0.21974589999999994
+        },
+        "TrainerController.start_learning": {
+            "total": 14.640245699999998,
+            "count": 1,
+            "self": 0.000885499999997208,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 14.639339999999999,
+                    "count": 1,
+                    "self": 14.639339999999999
+                },
+                "trainer_threads": {
+                    "total": 2.600000001962144e-06,
+                    "count": 1,
+                    "self": 2.600000001962144e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 1.759999999961792e-05,
+                    "count": 1,
+                    "self": 1.759999999961792e-05
+                }
+            }
+        }
+    }
+}

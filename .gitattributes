@@ -1,0 +1,13 @@
+Assets/ filter=lfs diff=lfs merge=lfs -text
+Packages/ filter=lfs diff=lfs merge=lfs -text
+results/ filter=lfs diff=lfs merge=lfs -text
+PROJJECT.sln filter=lfs diff=lfs merge=lfs -text
+Library/ filter=lfs diff=lfs merge=lfs -text
+Logs/ filter=lfs diff=lfs merge=lfs -text
+Temp/ filter=lfs diff=lfs merge=lfs -text
+*.dll filter=lfs diff=lfs merge=lfs -text
+*.dylib filter=lfs diff=lfs merge=lfs -text
+Library/PackageCache/ filter=lfs diff=lfs merge=lfs -text
+Library/SourceAssetDB filter=lfs diff=lfs merge=lfs -text
+*.so filter=lfs diff=lfs merge=lfs -text
+Library/PackageCache/com.unity.burst/.Runtime/libburst-llvm-16.dylib filter=lfs diff=lfs merge=lfs -text

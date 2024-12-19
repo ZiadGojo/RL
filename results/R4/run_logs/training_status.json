@@ -1,0 +1,47 @@
+{
+    "AgentController": {
+        "checkpoints": [
+            {
+                "steps": 499988,
+                "file_path": "results\\R4\\AgentController\\AgentController-499988.onnx",
+                "reward": 35.0,
+                "creation_time": 1734524494.6649976,
+                "auxillary_file_paths": [
+                    "results\\R4\\AgentController\\AgentController-499988.pt"
+                ]
+            },
+            {
+                "steps": 999999,
+                "file_path": "results\\R4\\AgentController\\AgentController-999999.onnx",
+                "reward": 28.75,
+                "creation_time": 1734525147.5394092,
+                "auxillary_file_paths": [
+                    "results\\R4\\AgentController\\AgentController-999999.pt"
+                ]
+            },
+            {
+                "steps": 1000255,
+                "file_path": "results\\R4\\AgentController\\AgentController-1000255.onnx",
+                "reward": 28.75,
+                "creation_time": 1734525147.7808676,
+                "auxillary_file_paths": [
+                    "results\\R4\\AgentController\\AgentController-1000255.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000255,
+            "file_path": "results\\R4\\AgentController.onnx",
+            "reward": 28.75,
+            "creation_time": 1734525147.7808676,
+            "auxillary_file_paths": [
+                "results\\R4\\AgentController\\AgentController-1000255.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
